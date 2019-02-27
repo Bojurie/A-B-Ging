@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%; // 1rem is 10px
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'montserrat';
+}
+.header {
+    align-self: center;
+
+    
+}
+.header__skew {
+  position: absolute;
+  height: 495;
+  width: 100vw;
+  background-color: rgb(201, 126, 27);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 31%, 0 65%);
+  clip-path: polygon(0 0, 100% 0, 100% 31%, 0 65%);
+
+}
+
+@import 'headerNavbar';

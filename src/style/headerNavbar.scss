@@ -1,0 +1,14 @@
+.header {
+    align-self: center;
+
+    
+}
+.header__skew {
+  position: absolute;
+  height: 495;
+  width: 100vw;
+  background-color: tan;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 31%, 0 65%);
+  clip-path: polygon(0 0, 100% 0, 100% 31%, 0 65%);
+
+}
